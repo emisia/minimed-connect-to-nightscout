@@ -9,9 +9,9 @@ var logger = require('./logger');
 
 var DEFAULT_MAX_RETRY_DURATION = module.exports.defaultMaxRetryDuration = 512;
 
-var CARELINK_SECURITY_URL = 'https://carelink.minimed.com/patient/j_security_check';
-var CARELINK_AFTER_LOGIN_URL = 'https://carelink.minimed.com/patient/main/login.do';
-var CARELINK_JSON_BASE_URL = 'https://carelink.minimed.com/patient/connect/ConnectViewerServlet?cpSerialNumber=NONE&msgType=last24hours&requestTime=';
+var CARELINK_SECURITY_URL = 'https://carelink.minimed.eu/patient/j_security_check';
+var CARELINK_AFTER_LOGIN_URL = 'https://carelink.minimed.eu/patient/main/login.do';
+var CARELINK_JSON_BASE_URL = 'https://carelink.minimed.eu/patient/connect/ConnectViewerServlet?cpSerialNumber=NONE&msgType=last24hours&requestTime=';
 var CARELINK_LOGIN_COOKIE = '_WL_AUTHCOOKIE_JSESSIONID';
 
 var carelinkJsonUrlNow = function() {
